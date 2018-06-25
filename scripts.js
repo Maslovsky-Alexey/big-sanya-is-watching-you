@@ -24,6 +24,12 @@
         function drawStuff(mousePos) {
                 fill(context, 0, 0, canvas.width, canvas.height, 'black');
 
+                
+                contextMask.font = "30px Comic Sans MS";
+                contextMask.fillStyle = "white";
+                contextMask.textAlign = "center";
+                contextMask.fillText("Big Sanya Is Watching YOU !", canvas.width / 2, 100); 
+
                 drawSanya(function (sanyaRect1) {
                         sanyaRect = sanyaRect1;
 
